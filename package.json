@@ -1,0 +1,26 @@
+{
+  "name": "vuerouter-vuex--study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run compile",
+    "test": "testem",
+    "compile": "npm run compile-es && npm run compile-commonjs",
+    "compile-es": "tsc --outDir ./dist/esm/ --module es6 --moduleResolution node",
+    "compile-commonjs": "tsc --outDir ./dist/commonjs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgxpuisb/vuerouter-vuex--study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgxpuisb/vuerouter-vuex--study/issues"
+  },
+  "homepage": "https://github.com/tgxpuisb/vuerouter-vuex--study#readme",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
