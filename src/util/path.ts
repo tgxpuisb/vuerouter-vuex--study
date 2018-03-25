@@ -63,3 +63,7 @@ export function parsePath (path: string): pathObj {
         hash
     }
 }
+
+export function cleanPath (path: string): string {
+    return path.replace(/\/\//g, '/')
+}

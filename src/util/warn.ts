@@ -1,9 +1,3 @@
-declare const process : {
-    env: {
-        NODE_ENV: string
-    }
-}
-
 export function assert (condition: any, message: string) {
     if (!condition) {
         throw new Error(`[vue-router] ${message}`)

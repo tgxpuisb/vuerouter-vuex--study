@@ -22,5 +22,8 @@
   "homepage": "https://github.com/tgxpuisb/vuerouter-vuex--study#readme",
   "devDependencies": {
     "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "path-to-regexp": "^2.2.0"
   }
 }
